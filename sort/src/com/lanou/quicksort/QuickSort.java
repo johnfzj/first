@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class QuickSort {
 	public static void main(String[] args) {
-		int[] arr = { 776, 2, 434, 54, 6, 65, 77, 767, 7 };
+		//加了一些注释
+		int[] arr = { 776, 2, 434, 54, 6, 65, 77, 767, 7,55 };
 		System.out.println("Before:" + Arrays.toString(arr));
 		sort(arr);
 		System.out.println("After:" + Arrays.toString(arr));
